@@ -11,6 +11,14 @@ public class Person {
 		this.Name=name;
 		this.age=age;
 		this.city=city;
+		
 	}
+	public void display() {
+		System.out.println("Name  is"+Name);
+		System.out.println("Age is"+age);
+		System.out.println("city is"+city);
+	}
+
+	
 
 }
